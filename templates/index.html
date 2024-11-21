@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大葉綠化牆與小葉欖仁樹林</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='./images/favicon.ico') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="navbar-brand-container">
+                    <a class="navbar-brand" href="#">生成永續未來</a>
+                    <span class="navbar-subtitle">大葉 Ai x SDGs 創意網頁設計大賽</span>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link" href="#green-classroom">綠教室</a>
+                        <a class="nav-link" href="#green-wall">綠化牆</a>
+                        <a class="nav-link" href="#tree-forest">欖仁林</a>
+                        <a class="nav-link" href="#sdgs">Ai x SDGs</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="vh-100 d-flex align-items-center">
+            <div class="container text-center">
+                <h1 class="display-2 fw-bold">大葉綠化牆與小葉欖仁樹林</h1>
+                <p class="lead mb-4">全台首創 ──SDGs 綠教室」</p>
+            </div>
+        </section>
+
+        <!-- 綠教室區段 -->
+        <section id="green-classroom" class="min-vh-100">
+            <div class="container">
+                <h2 class="text-center mb-5 sdgs-text">SDGs x 大葉大自然綠教室</h2>
+                <div class="row g-4">
+                    <!-- SDG 4 -->
+                    <div class="col-md-4">
+                        <div class="feature-card">
+                            <div class="card-content">
+                                <div class="sdg-icon-container">
+                                    <img src="{{ url_for('static', filename='images/sdgs/E-WEB-Goal-04.png') }}" alt="SDG 4" class="sdg-icon">
+                                </div>
+                                <h4>優質教育</h4>
+                                <p class="sdg-subtitle">Quality Education</p>
+                            </div>
+                            <i class="fas fa-chevron-down expand-icon"></i>
+                            <div class="expandable-content">
+                                <p>「大自然綠教室」提供植物學課程、DIY植物手工活動，以及配合教育部自然科學課程的教學資源。
+                                    <br>
+                                    <br>
+                                    這些內容直接提升了教育品質，促進學生對生態和永續發展主題的理解。</p>
+                            </div>
+                            <div class="card-description">
+                                <p>「大自然綠教室」提供植物學課程、DIY植物手工活動，以及配合教育部自然科學課程的教學資源。
+                                    <br>
+                                    <br>
+                                    這些內容直接提升了教育品質，促進學生對生態和永續發展主題的理解。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SDG 11 -->
+                    <div class="col-md-4">
+                        <div class="feature-card">
+                            <div class="card-content">
+                                <div class="sdg-icon-container">
+                                    <img src="{{ url_for('static', filename='images/sdgs/E-WEB-Goal-11.png') }}" alt="SDG 11" class="sdg-icon">
+                                </div>
+                                <h4>永續城市與社區</h4>
+                                <p class="sdg-subtitle">Sustainable Cities and Communities</p>
+                            </div>
+                            <i class="fas fa-chevron-down expand-icon"></i>
+                            <div class="expandable-content">
+                                <p>校園的生態環境設計不僅美化了環境，還提升了生物多樣性，改善了學生與自然互動的空間體驗，同時實現了綠化空間的合理利用，符合永續城市與社區建設的目標。</p>
+                            </div>
+                            <div class="card-description">
+                                <p>校園的生態環境設計不僅美化了環境，還提升了生物多樣性，改善了學生與自然互動的空間體驗，同時實現了綠化空間的合理利用，符合永續城市與社區建設的目標。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SDG 12 -->
+                    <div class="col-md-4">
+                        <div class="feature-card">
+                            <div class="card-content">
+                                <div class="sdg-icon-container">
+                                    <img src="{{ url_for('static', filename='images/sdgs/E-WEB-Goal-12.png') }}" alt="SDG 12" class="sdg-icon">
+                                </div>
+                                <h4>責消費與生產</h4>
+                                <p class="sdg-subtitle">Responsible Consumption and Production</p>
+                            </div>
+                            <i class="fas fa-chevron-down expand-icon"></i>
+                            <div class="expandable-content">
+                                <p>場域建設強調減少設施建置與消耗，優先活化現有設施，減少資源浪費，體現了負責任的生產與消費理念。</p>
+                            </div>
+                            <div class="card-description">
+                                <p>場域建設強調減少設施建置與消耗，優先活化現有設施，減少資源浪費，體現了負責任的生產與消費理念。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SDG 13 -->
+                    <div class="col-md-4">
+                        <div class="feature-card">
+                            <div class="card-content">
+                                <div class="sdg-icon-container">
+                                    <img src="{{ url_for('static', filename='images/sdgs/E-WEB-Goal-13.png') }}" alt="SDG 13" class="sdg-icon">
+                                </div>
+                                <h4>氣候行動</h4>
+                                <p class="sdg-subtitle">Climate Action</p>
+                            </div>
+                            <i class="fas fa-chevron-down expand-icon"></i>
+                            <div class="expandable-content">
+                                <p>綠化牆與校園樹木的固碳作用，為氣候變遷的緩解提供了直接支持。
+                                    <br>
+                                    <br>
+                                    同時，該項目推廣生態保護意識，鼓勵參與碳匯建設與管理。</p>
+                            </div>
+                            <div class="card-description">
+                                <p>綠化牆與校園樹木的固碳作用，為氣候變遷的緩解提供了直接支持。
+                                    <br>
+                                    <br>
+                                    同時，該項目推廣生態保護意識，鼓勵參與碳匯建設與管理。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SDG 15 -->
+                    <div class="col-md-4">
+                        <div class="feature-card">
+                            <div class="card-content">
+                                <div class="sdg-icon-container">
+                                    <img src="{{ url_for('static', filename='images/sdgs/E-WEB-Goal-15.png') }}" alt="SDG 15" class="sdg-icon">
+                                </div>
+                                <h4>陸域生態</h4>
+                                <p class="sdg-subtitle">Life on Land</p>
+                            </div>
+                            <i class="fas fa-chevron-down expand-icon"></i>
+                            <div class="expandable-content">
+                                <p>校園注重原生植物的保護與復育，種植大量喬木、灌木及草花，並設立鳥箱與紅外線攝影機監測生物活動，這些舉措直接支持保護陸域生態系統和生物多樣性。</p>
+                            </div>
+                            <div class="card-description">
+                                <p>校園注重原生植物的保護與復育，種植大量喬木、灌木及草花，並設立鳥箱與紅外線攝影機監測生物活動，這些舉措直接支持保護陸域生態系統和生物多樣性。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SDG 17 -->
+                    <div class="col-md-4">
+                        <div class="feature-card">
+                            <div class="card-content">
+                                <div class="sdg-icon-container">
+                                    <img src="{{ url_for('static', filename='images/sdgs/E-WEB-Goal-17.png') }}" alt="SDG 17" class="sdg-icon">
+                                </div>
+                                <h4>促進目標實現的夥伴關係</h4>
+                                <p class="sdg-subtitle">Partnerships for the Goals</p>
+                            </div>
+                            <i class="fas fa-chevron-down expand-icon"></i>
+                            <div class="expandable-content">
+                                <p>透過社區參與、校友捐贈等形式推動校園綠化項目，與地方社會及外部資源協同合作，達成共同的永續發展目標。</p>
+                            </div>
+                            <div class="card-description">
+                                <p>透過社區參與、校友捐贈等形式推動校園綠化項目，與地方社會及外部資源協同合作，達成共同的永續發展目標。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 化牆區段 -->
+        <section id="green-wall" class="min-vh-100">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h2 class="display-4 mb-4">大葉綠化牆</h2>
+                        <div class="lead-container">
+                            <p class="lead">全球唯一方形網管垂直綠化設施</p>
+                        </div>
+                        <div class="features mt-4">
+                            <div class="info-card" 
+                                 data-title="建置於2010年" 
+                                 data-content="由校友南陽化工廠董事長蔡爾建先生捐贈，是當時世界唯一以方形網管垂直之綠化設施。&#10;&#10;這項創新的綠化設計不僅展現了大葉大學對環境永續的重視，也開創了校園綠化的新紀元。">
+                                <h4>建置歷史</h4>
+                                <div class="hover-hint">移動滑鼠查看更多</div>
+                                <i class="fas fa-chevron-down expand-icon"></i>
+                                <div class="expandable-content">
+                                    <p>由校友南陽化工廠董事長蔡爾建先生捐贈，是當時世界唯一以方形網管垂直之綠化設施。
+                                        
+                                        這項創新的綠化設計不僅展現了大葉大學對環境永續的重視，也開創了校園綠化的新紀元。</p>
+                                </div>
+                            </div>
+                            <div class="info-card" 
+                                 data-title="創新設計" 
+                                 data-content="綠化牆設開啟了大葉校園綠從平面到立體的嶄新視覺效果，不僅極為環保，更創造了全面的大葉綠化新局面。&#10;&#10;這種垂直綠化方式不僅節省空間，還能有效改善環境，提供更好的生態效益。">
+                                <h4>設計特色</h4>
+                                <div class="hover-hint">移動滑鼠查看更多</div>
+                                <i class="fas fa-chevron-down expand-icon"></i>
+                                <div class="expandable-content">
+                                    <p>綠化牆設計開啟了大葉校園綠化從平面到立體的嶄新視覺效果，不僅極為環保，更創造了全面的大葉綠化新局面。
+                                        
+                                        這種垂直綠化方式不僅節省空間，還能有效改善環境，提供更好的生態效益。</p>
+                                </div>
+                            </div>
+                            <div class="info-card" 
+                                 data-title="位置特色" 
+                                 data-content="綠化牆位於行政大樓一樓川廊中間，擁有內外兩面和旁邊一面的立體綠化空間，是每一個大葉人必經之處。&#10;&#10;今年經過重新活化，栽種新植栽，讓整體空間重現綠意盎然的嶄新意象。">
+                                <h4>地理位置</h4>
+                                <div class="hover-hint">移動滑鼠查看更多</div>
+                                <i class="fas fa-chevron-down expand-icon"></i>
+                                <div class="expandable-content">
+                                    <p>綠化牆位於行政大樓一樓川廊中間，擁有內外兩面和旁邊一面的立體綠化空間，是每一個大葉人必經之處。
+                                        
+                                        今年經過重新活化，栽種新植栽，讓整體空間重現綠意盎然的嶄新意象。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="image-container">
+                            <canvas id="greenWallCanvas"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 彈出視窗 -->
+            <div class="sdg-popup">
+                <div class="popup-content">
+                    <button class="popup-close">&times;</button>
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="popup-overlay"></div>
+        </section>
+
+        <!-- 欖仁樹林區段 -->
+        <section id="tree-forest" class="min-vh-100 bg-light d-flex align-items-center">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <h2 class="display-4 mb-4">小葉欖仁樹林</h2>
+                        <p class="lead">自然碳匯的示範場域</p>
+                        <div class="stats-container mt-4">
+                            <div class="row g-4">
+                                <div class="col-md-4">
+                                    <div class="stat-box">
+                                        <div class="stat-content">
+                                            <div class="stat-number">
+                                                <span class="number">60</span>
+                                                <span class="plus">+</span>
+                                            </div>
+                                            <div class="stat-label">大棵小葉欖仁樹</div>
+                                        </div>
+                                        <i class="fas fa-chevron-down expand-icon"></i>
+                                        <div class="expandable-content">
+                                            <div class="hover-image">
+                                                <img src="{{ url_for('static', filename='images/terminalia-main.webp') }}" alt="小葉欖仁樹">
+                                            </div>
+                                            <div class="hover-content">
+                                                <h4>小葉欖仁樹</h4>
+                                                <p>校園內最具代表性的樹種之一，提供優質的遮蔭空間</p>
+                                            </div>
+                                        </div>
+                                        <div class="stat-hover-card">
+                                            <div class="hover-image">
+                                                <img src="{{ url_for('static', filename='images/terminalia-main.webp') }}" alt="小葉欖仁樹">
+                                            </div>
+                                            <div class="hover-content">
+                                                <h4>小葉欖仁樹</h4>
+                                                <p>校園內最具代表性的樹種之一，提供優質的遮蔭空間</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="stat-box">
+                                        <div class="stat-content">
+                                            <div class="stat-number">
+                                                <span class="number">450</span>
+                                                <span class="plus">+</span>
+                                            </div>
+                                            <div class="stat-label">環抱植物總數</div>
+                                        </div>
+                                        <i class="fas fa-chevron-down expand-icon"></i>
+                                        <div class="expandable-content">
+                                            <div class="hover-image">
+                                                <img src="{{ url_for('static', filename='images/terminalia-group.webp') }}" alt="環抱植物">
+                                            </div>
+                                            <div class="hover-content">
+                                                <h4>豐富的植物生態</h4>
+                                                <p>樣化的植物群落，創造完整的生態系統</p>
+                                            </div>
+                                        </div>
+                                        <div class="stat-hover-card">
+                                            <div class="hover-image">
+                                                <img src="{{ url_for('static', filename='images/terminalia-group.webp') }}" alt="環抱植物">
+                                            </div>
+                                            <div class="hover-content">
+                                                <h4>豐富的植物生態</h4>
+                                                <p>多樣化的植物群落，創造完整的生態系統</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="stat-box">
+                                        <div class="stat-content">
+                                            <div class="stat-number">
+                                                <span class="number">5,980</span>
+                                                <span class="unit">Kg</span>
+                                            </div>
+                                            <div class="stat-label">落羽松林固碳量</div>
+                                        </div>
+                                        <i class="fas fa-chevron-down expand-icon"></i>
+                                        <div class="expandable-content">
+                                            <div class="hover-image">
+                                                <img src="{{ url_for('static', filename='images/carbon-capture.webp') }}" alt="固碳效益">
+                                            </div>
+                                            <div class="hover-content">
+                                                <h4>碳匯貢獻</h4>
+                                                <p>透過植物固碳，為環境永續貢獻一份心力</p>
+                                            </div>
+                                        </div>
+                                        <div class="stat-hover-card">
+                                            <div class="hover-image">
+                                                <img src="{{ url_for('static', filename='images/carbon-capture.webp') }}" alt="固碳效益">
+                                            </div>
+                                            <div class="hover-content">
+                                                <h4>碳匯貢獻</h4>
+                                                <p>透過植物固碳，為環境永續貢獻一份心力</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="carousel-container">
+                            <div class="carousel-track">
+                                <div class="carousel-slide">
+                                    <img src="{{ url_for('static', filename='images/bar/1.webp') }}" alt="小葉欖仁樹主圖">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="{{ url_for('static', filename='images/bar/2.webp') }}" alt="小葉欖仁樹群">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="{{ url_for('static', filename='images/bar/3.webp') }}" alt="小葉欖仁樹細節">
+                                </div>
+                            </div>
+                            <div class="carousel-dots">
+                                <span class="dot active"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <!-- 修改 GPT Button -->
+    <button id="gpt-button" class="position-fixed bottom-0 end-0 m-4">
+        <img src="{{ url_for('static', filename='images/ai.webp') }}" alt="Ai x SDGs" class="ai-icon">
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <div class="popup-overlay"></div>
+    <div class="info-popup">
+        
+        <div class="popup-content">
+            <h3></h3>
+            <p></p>
+        </div>
+    </div>
+    <div class="fullscreen-image-viewer">
+        <div class="viewer-content">
+            <button class="viewer-close">&times;</button>
+            <img src="" alt="Full size image">
+        </div>
+    </div>
+    <div class="sdg-popup">
+        <div class="popup-content">
+            <button class="popup-close">&times;</button>
+            <h3></h3>
+            <p></p>
+        </div>
+    </div>
+    <div id="chat-container" class="chat-container">
+        <div class="chat-header">
+            <h3>Ai x SDGs</h3>
+            <button class="close-chat">&times;</button>
+        </div>
+        <div class="chat-messages">
+            <div class="message bot">
+                <div class="avatar">
+                    <img src="{{ url_for('static', filename='images/ai.webp') }}" alt="AI x SDGs">
+                </div>
+                <div class="message-content">
+                    <p>您好！我是 AI 助手，很高興為您服務。請問有什麼我可以幫您的嗎？</p>
+                </div>
+            </div>
+        </div>
+        <div class="chat-input">
+            <textarea placeholder="輸入訊息..." rows="1"></textarea>
+            <button class="send-message">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+    <div class="chat-overlay"></div>
+</body>
+</html> 
